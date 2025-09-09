@@ -36,3 +36,5 @@ def setup_server_socket(host, port):
 
 key = setup_server_socket(host = '127.0.0.1', port= 12345 )
 print(key)
+
+#this prints the private key

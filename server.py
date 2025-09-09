@@ -33,3 +33,6 @@ def setup_server_socket(host, port):
 # Close connection
     conn.close()
     return shared
+
+key = setup_server_socket(host = '127.0.0.1', port= 12345 )
+print(key)

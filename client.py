@@ -26,4 +26,3 @@ client_socket.send(f"{Bo}".encode())
 
 # Close connection
 client_socket.close()
-
